@@ -49,7 +49,7 @@
 /**
  * @brief   Thread function.
  */
-typedef void (*tfunc_t)(void *p);
+typedef void * (*tfunc_t)(void *p);
 
 /*===========================================================================*/
 /* Module macros.                                                            */
