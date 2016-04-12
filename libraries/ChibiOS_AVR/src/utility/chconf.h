@@ -302,7 +302,7 @@
  *          @p CH_CFG_USE_SEMAPHORES.
  * @note    Mutexes are recommended.
  */
-#define CH_CFG_USE_HEAP                     FALSE
+#define CH_CFG_USE_HEAP                     TRUE
 
 /**
  * @brief   C-runtime allocator.
@@ -314,7 +314,7 @@
  * @note    The C-runtime may or may not require @p CH_CFG_USE_MEMCORE, see the
  *          appropriate documentation.
  */
-#define CH_CFG_USE_MALLOC_HEAP              FALSE
+#define CH_CFG_USE_MALLOC_HEAP              TRUE
 
 /**
  * @brief   Memory Pools Allocator APIs.
@@ -334,7 +334,7 @@
  * @note    Requires @p CH_CFG_USE_WAITEXIT.
  * @note    Requires @p CH_CFG_USE_HEAP and/or @p CH_CFG_USE_MEMPOOLS.
  */
-#define CH_CFG_USE_DYNAMIC                  FALSE
+#define CH_CFG_USE_DYNAMIC                  TRUE
 
 /** @} */
 
